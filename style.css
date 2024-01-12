@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(217, 57%, 11%);
+    font-family: "outfit", sans-serif;
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    height: 100vh;
+}
+
+p{
+    font-weight: 300;
+    font-weight: lighter;
+    margin: 2rem 0 2rem 0;
+}
+
+img{
+    position: relative;
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+span{
+    color: #fff;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    margin: auto;
+    padding: 1.5rem;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.container h1{
+    color: #fff;
+    margin: 2rem 0 2rem 0;
+}
+
+.container h2:hover {
+    color: hsl(178, 100%, 50%);
+}
+  
+.container p .creator-name:hover {
+    color: hsl(178, 100%, 50%);
+}
+  
+.container header ul{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin: 2rem 0 1.5rem 0;
+    padding-bottom: 1.5rem;
+    border-bottom: solid;
+    border-width: 0.1rem;
+}
+
+.container .header ul li img {
+    margin-right: 0.4rem;
+}
+
+.container .header ul .icon-text {
+    color: hsl(178, 100%, 50%);
+}
+
+.container avatar-footer{
+    display: flex;
+    position: relative;
+}
+
+.container avatar-image{
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1.5rem;
+    border-style: solid;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.attribution {
+    font-size: 1rem;
+    text-align: center;
+}
+  
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (min-widht:400px) {
+    .container{
+        width: 375px;
+        margin: 4rem auto 1.5rem;
+    }
+}
